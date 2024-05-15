@@ -1,0 +1,18 @@
+<odoo>
+    <record id="helpdesk_ticket_view_form" model="ir.ui.view">
+        <field name="name">helpdesk_ticket form</field>
+        <field name="model">helpdesk.ticket</field>
+        <field name="inherit_id" ref="helpdesk.helpdesk_ticket_view_form"/>
+        <field name="arch" type="xml">
+            <field name="user_id" position="after">
+                <field name="serial_number" />
+                <field name="transaction_date" />
+                <field name="attachment_count" />
+                <field name="transaction_type" />
+                <field name="meeting" />
+                <field name="meeting_datetime" attrs="{'invisible': [('meeting', '=', False)]}"/>
+            </field>
+
+        </field>
+    </record>
+</odoo>
