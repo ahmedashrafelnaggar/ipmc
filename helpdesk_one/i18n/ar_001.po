@@ -1,0 +1,150 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* helpdesk_one
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-18 17:15+0000\n"
+"PO-Revision-Date: 2024-05-18 17:15+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: helpdesk_one
+#: model:ir.model,name:helpdesk_one.model_helpdesk_ticket
+msgid "Helpdesk Ticket"
+msgstr "تذكرة مكتب المساعدة"
+
+#. module: helpdesk_one
+#: model:ir.model.fields,field_description:helpdesk_one.field_helpdesk_ticket__meeting
+msgid "Meeting"
+msgstr ""
+
+#. module: helpdesk_one
+#: model:ir.model.fields,field_description:helpdesk_one.field_helpdesk_ticket__meeting_datetime
+msgid "Meeting Datetime"
+msgstr ""
+
+#. module: helpdesk_one
+#: code:addons/helpdesk_one/models/helpdesk_ticket.py:0
+#: code:addons/helpdesk_one/models/helpdesk_ticket.py:0
+#: code:addons/odoo/custom_addons6/helpdesk_one/models/helpdesk_ticket.py:0
+#: code:addons/odoo/custom_addons6/helpdesk_one/models/helpdesk_ticket.py:0
+#, python-format
+msgid "New"
+msgstr ""
+
+#. module: helpdesk_one
+#: model:ir.model.fields,field_description:helpdesk_one.field_helpdesk_ticket__attachment_count
+msgid "Number of Attachments"
+msgstr ""
+
+#. module: helpdesk_one
+#: model:ir.model.fields,field_description:helpdesk_one.field_helpdesk_ticket__serial_number
+msgid "Serial Number"
+msgstr ""
+
+#. module: helpdesk_one
+#: model:ir.model.fields,field_description:helpdesk_one.field_helpdesk_ticket__transaction_date
+msgid "Transaction Date"
+msgstr ""
+
+#. module: helpdesk_one
+#: model:ir.model.fields,field_description:helpdesk_one.field_helpdesk_ticket__transaction_action
+msgid "اجراء المعامله"
+msgstr ""
+
+#. module: helpdesk_one
+#: model:ir.model.fields.selection,name:helpdesk_one.selection__helpdesk_ticket__transaction_action__complete_requirements
+msgid "اكمال اللازم"
+msgstr ""
+
+#. module: helpdesk_one
+#: model:ir.model.fields.selection,name:helpdesk_one.selection__helpdesk_ticket__transaction_action__attachment_to_previous
+msgid "الحاقا للسابقه"
+msgstr ""
+
+#. module: helpdesk_one
+#: model:ir.model.fields.selection,name:helpdesk_one.selection__helpdesk_ticket__transaction_action__study_preparation
+msgid "الدراسه واعداد اللازم"
+msgstr ""
+
+#. module: helpdesk_one
+#: model:ir.model.fields,field_description:helpdesk_one.field_helpdesk_ticket__oolweh_mualamah_priority
+msgid "اولويه المعامله"
+msgstr ""
+
+#. module: helpdesk_one
+#: model:ir.model.fields.selection,name:helpdesk_one.selection__helpdesk_ticket__transaction_action__preserve
+msgid "تحفظ"
+msgstr ""
+
+#. module: helpdesk_one
+#: model:ir.model.fields.selection,name:helpdesk_one.selection__helpdesk_ticket__oolweh_mualamah_priority__سري
+msgid "سري"
+msgstr ""
+
+#. module: helpdesk_one
+#: model:ir.model.fields.selection,name:helpdesk_one.selection__helpdesk_ticket__oolweh_mualamah_priority__سري-عاجل_جدا_وهام
+msgid "سري-عاجل جدا وهام"
+msgstr ""
+
+#. module: helpdesk_one
+#: model:ir.model.fields.selection,name:helpdesk_one.selection__helpdesk_ticket__oolweh_mualamah_priority__عاجل
+msgid "عاجل"
+msgstr ""
+
+#. module: helpdesk_one
+#: model:ir.model.fields.selection,name:helpdesk_one.selection__helpdesk_ticket__oolweh_mualamah_priority__عاجل_جدا_وهام
+msgid "عاجل جدا وهام"
+msgstr ""
+
+#. module: helpdesk_one
+#: model:ir.model.fields.selection,name:helpdesk_one.selection__helpdesk_ticket__oolweh_mualamah_priority__عاجل_جدا_وهام_يسلم_حالا
+msgid "عاجل جدا وهام يسلم حالا"
+msgstr ""
+
+#. module: helpdesk_one
+#: model:ir.model.fields.selection,name:helpdesk_one.selection__helpdesk_ticket__transaction_action__provide_feedback
+msgid "لابداء المرئيات"
+msgstr ""
+
+#. module: helpdesk_one
+#: model:ir.model.fields.selection,name:helpdesk_one.selection__helpdesk_ticket__transaction_action__approve_execution
+msgid "لاعتماد انفاذ موجبه"
+msgstr ""
+
+#. module: helpdesk_one
+#: model:ir.model.fields.selection,name:helpdesk_one.selection__helpdesk_ticket__transaction_action__no_objection
+msgid "لامانع"
+msgstr ""
+
+#. module: helpdesk_one
+#: model:ir.model.fields.selection,name:helpdesk_one.selection__helpdesk_ticket__transaction_action__for_review_and_notification
+msgid "للاطلاع والاحاطه"
+msgstr ""
+
+#. module: helpdesk_one
+#: model:ir.model.fields.selection,name:helpdesk_one.selection__helpdesk_ticket__transaction_action__utilize_available_information
+msgid "للافاده بما لديكم"
+msgstr ""
+
+#. module: helpdesk_one
+#: model:ir.model.fields.selection,name:helpdesk_one.selection__helpdesk_ticket__transaction_action__for_circulation
+msgid "للتعميم"
+msgstr ""
+
+#. module: helpdesk_one
+#: model:ir.model.fields.selection,name:helpdesk_one.selection__helpdesk_ticket__transaction_action__for_follow_up
+msgid "للمتابعه"
+msgstr ""
+
+#. module: helpdesk_one
+#: model:ir.model.fields.selection,name:helpdesk_one.selection__helpdesk_ticket__transaction_action__for_consultation
+msgid "للمفاهمة"
+msgstr ""

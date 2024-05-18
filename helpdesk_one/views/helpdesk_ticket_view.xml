@@ -1,0 +1,74 @@
+<odoo>
+    <data>
+        <record id="helpdesk_ticket_form" model="ir.ui.view">
+            <field name="name">helpdesk_ticket</field>
+            <field name="model">helpdesk.ticket</field>
+            <field name="inherit_id" ref="helpdesk.helpdesk_ticket_view_form"/>
+            <field name="arch" type="xml">
+
+                <field name="name" position="before">
+                    <div class="oe_title">
+                        <h1>
+                            <field name="serial_number" readonly="0"/>
+                        </h1>
+                    </div>
+                </field>
+                <field name="user_id" position="after">
+                    <field name="serial_number"/>
+                    <field name="transaction_date"/>
+                    <field name="attachment_count"/>
+                    <field name="meeting"/>
+                    <field name="meeting_datetime" attrs="{'invisible': [('meeting', '=', False)]}"/>
+                </field>
+
+                <field name="priority" position="after">
+                    <field name="oolweh_mualamah_priority"/>
+                </field>
+
+                <field name="meeting" position="before">
+                    <field name="transaction_action"/>
+                </field>
+
+                <!--                <xpath expr="//field[@name='user_id']" position="after">-->
+                <!--                    <field name="attachment_count"/>-->
+                <!--                </xpath>-->
+
+
+            </field>
+        </record>
+
+        <record id="helpdesk.menu_helpdesk_root" model="ir.ui.menu">
+            <!--        this field to chang name of menu from quotation to New quotation-->
+            <field name="name"> مركز المعاملات</field>
+            <!-- Add or modify fields as needed -->
+        </record>
+
+        <record id="helpdesk.helpdesk_ticket_menu_main" model="ir.ui.menu">
+            <!--        this field to chang name of menu from quotation to New quotation-->
+            <field name="name">المعاملات</field>
+            <!-- Add or modify fields as needed -->
+        </record>
+
+        <record id="helpdesk.helpdesk_ticket_menu_my" model="ir.ui.menu">
+            <!--        this field to chang name of menu from quotation to New quotation-->
+            <field name="name">معاملاتي</field>
+            <!-- Add or modify fields as needed -->
+        </record>
+
+        <record id="helpdesk.helpdesk_ticket_menu_all" model="ir.ui.menu">
+            <!--        this field to chang name of menu from quotation to New quotation-->
+            <field name="name">كافه المعاملات</field>
+            <!-- Add or modify fields as needed -->
+        </record>
+
+        <record id="helpdesk.helpdesk_ticket_report_menu" model="ir.ui.menu">
+            <!--        this field to chang name of menu from quotation to New quotation-->
+            <field name="name">تحليل المعاملات</field>
+            <!-- Add or modify fields as needed -->
+        </record>
+
+    </data>
+</odoo>
+
+
+
