@@ -37,9 +37,11 @@
             </field>
         </record>
 
+<!--            to inherit menu and change her names-->
         <record id="helpdesk.menu_helpdesk_root" model="ir.ui.menu">
             <!--        this field to chang name of menu from quotation to New quotation-->
-            <field name="name"> مركز المعاملات</field>
+<!--            <field name="name"> مركز المعاملات</field>-->
+            <field name="name"> Help Desk</field>
             <!-- Add or modify fields as needed -->
         </record>
 
@@ -66,6 +68,18 @@
             <field name="name">تحليل المعاملات</field>
             <!-- Add or modify fields as needed -->
         </record>
+
+<!--        <record id="helpdesk.helpdesk_menu_team_dashboard" model="ir.actions.act_window">-->
+<!--            &lt;!&ndash;        this make me change name inside menu orders to app one&ndash;&gt;-->
+<!--            <field name="name">App One</field>-->
+<!--        </record>-->
+
+<!--        helpdesk_team_view_kanban-->
+<!--           <record id="helpdesk_ticket_form" model="ir.ui.view">-->
+<!--            <field name="name">helpdesk_ticket</field>-->
+<!--            <field name="model">helpdesk.ticket</field>-->
+<!--            <field name="inherit_id" ref="helpdesk.helpdesk_ticket_view_form"/>-->
+<!--            <field name="arch" type="xml">-->
 
     </data>
 </odoo>

@@ -35,8 +35,7 @@ class HelpdeskTicket(models.Model):
         ],
         string='اجراء المعامله'
     )
-    # ticket_number = fields.Char(string='Transaction Number')
-    # ticket_type = fields.Selection(string='Transaction Type')
+    ticket_number = fields.Char(string='Transaction Number')
 
     @api.model_create_multi
     def create(self, vals):
